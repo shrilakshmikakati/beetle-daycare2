@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="global-footer">
       <div className="container footer-content">
         <div className="footer-section">
-          <h3>Kidzu Childcare</h3>
+          <h3>Beetle Daycare</h3>
           <p>home of happy, healthy kids</p>
         </div>
         <div className="footer-section">
