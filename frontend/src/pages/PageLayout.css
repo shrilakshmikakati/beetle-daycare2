@@ -1,0 +1,92 @@
+.page-container {
+  padding: 180px 20px 80px; 
+  min-height: calc(100vh - 200px);
+}
+
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  color: #d32f2f; /* Red title as in screenshot */
+  margin-bottom: 20px;
+}
+
+.page-content p {
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.page-content ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-align: left;
+}
+
+.page-content ul li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.welcome-text {
+  font-size: 1.2rem !important;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.email-link {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 1;
+  background-color: #f1f0d3; /* Light yellow background for sidebar as in screenshot */
+  border: 1px solid #eaeaea;
+  padding-bottom: 30px;
+}
+
+.sidebar-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sidebar-links {
+  padding: 20px;
+}
+
+.sidebar-links h3 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.sidebar-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-links li {
+  margin-bottom: 15px;
+}
+
+.sidebar-links a {
+  color: #512da8; /* Purple links as in screenshot */
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.sidebar-links a:hover {
+  text-decoration: underline;
+}

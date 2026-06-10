@@ -1,0 +1,9 @@
+{
+  "name": "childcare-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "install-all": "cd frontend && npm install",
+    "backend": "cd backend && npm run dev"
+  }
+}
