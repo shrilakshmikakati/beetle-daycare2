@@ -4,6 +4,11 @@
   "scripts": {
     "dev": "cd frontend && npm run dev",
     "install-all": "cd frontend && npm install",
-    "backend": "cd backend && npm run dev"
+    "backend": "cd backend && npm run dev",
+    "predeploy": "cd frontend && npm run build",
+    "deploy": "gh-pages -d frontend/dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

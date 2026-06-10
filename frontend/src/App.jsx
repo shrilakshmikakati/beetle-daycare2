@@ -7,6 +7,7 @@ import Hours from './pages/Hours';
 import Tuition from './pages/Tuition';
 import LetterToParents from './pages/LetterToParents';
 import Apply from './pages/Apply';
+import BookVisit from './pages/BookVisit';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/tuition" element={<Tuition />} />
             <Route path="/parents" element={<LetterToParents />} />
             <Route path="/apply" element={<Apply />} />
+            <Route path="/book-visit" element={<BookVisit />} />
           </Routes>
         </main>
         <Footer />

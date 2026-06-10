@@ -15,7 +15,7 @@
 .feature-card {
   width: 220px;
   height: 220px;
-  border-radius: 50% 50% 40% 60% / 60% 40% 50% 50%;
+  border-radius: var(--radius-card);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,13 +23,14 @@
   text-align: center;
   padding: 20px;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  box-shadow: var(--shadow-soft);
+  background-color: var(--card-blue);
   border: 1px solid #eaeaea;
 }
 
 .feature-card:hover {
-  transform: scale(1.05) translateY(-10px) !important;
-  border-radius: 40% 60% 50% 50% / 50% 50% 60% 40%;
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
 }
 
 .icon-wrapper {

@@ -7,7 +7,7 @@ const Header = () => {
     <header className="full-width-header">
       <div className="nav-container">
         <div className="logo">
-          Beetle Daycare
+          <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>Beetle Daycare</Link>
         </div>
         <nav className="nav-links">
           <Link to="/">Home</Link>

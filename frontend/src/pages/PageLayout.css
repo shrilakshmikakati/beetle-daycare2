@@ -10,8 +10,8 @@
 }
 
 .page-content h1 {
-  font-size: 2.5rem;
-  color: #d32f2f; /* Red title as in screenshot */
+  font-size: 3rem;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 

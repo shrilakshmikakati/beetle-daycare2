@@ -1,12 +1,12 @@
 import React from 'react';
 import './WhyChooseUs.css';
 import { Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
   return (
     <section className="choose-section container">
       <div className="choose-content">
-        <p className="subtitle">Why Choose Us?</p>
         <h2>Why Choose Our School</h2>
         
         <div className="tabs">
@@ -39,8 +39,8 @@ const WhyChooseUs = () => {
         </div>
         
         <div className="choose-buttons">
-          <button className="btn btn-primary">Enroll Now</button>
-          <button className="btn btn-secondary">Book A Visit</button>
+          <Link to="/apply" className="btn btn-primary">Enroll Now</Link>
+          <Link to="/book-visit" className="btn btn-secondary">Book A Visit</Link>
         </div>
       </div>
       

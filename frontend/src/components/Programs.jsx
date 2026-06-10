@@ -36,8 +36,7 @@ const Programs = () => {
   return (
     <section className="programs-section container">
       <div className="section-header text-center">
-        <p className="subtitle">Our Programs</p>
-        <h2>Our Programs / Classes 🌟</h2>
+        <h2>Our Programs </h2>
       </div>
       
       <div className="programs-grid">

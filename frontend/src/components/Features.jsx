@@ -36,10 +36,9 @@ const Features = () => {
         {features.map(feature => (
           <div 
             key={feature.id} 
-            className="feature-card bouncing-element" 
+            className="feature-card fade-in" 
             style={{ 
-              backgroundColor: feature.bgColor,
-              animationDelay: `${feature.id * 0.2}s`
+              backgroundColor: feature.bgColor
             }}
           >
             <div className="icon-wrapper">
