@@ -36,9 +36,8 @@ const Programs = () => {
   return (
     <section className="programs-section container">
       <div className="section-header text-center">
-        <h2>Our Programs </h2>
+        <h2>Our Programs</h2>
       </div>
-      
       <div className="programs-grid">
         {programs.map(prog => (
           <div key={prog.id} className="program-card" style={{ backgroundColor: prog.bgColor }}>
