@@ -20,6 +20,14 @@ const Hero = () => {
             <Link to="/book-visit" className="btn btn-secondary">Book A Visit <ArrowRight size={16}/></Link>
           </div>
         </div>
+
+
+
+
+
+
+
+        
         <div className="hero-image">
           <div className="image-wrapper">
              <img src={heroImg} alt="Children smiling" className="student-img" />
