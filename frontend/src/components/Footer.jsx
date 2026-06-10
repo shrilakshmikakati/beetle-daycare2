@@ -10,8 +10,8 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>612-709-1764, 612-284-6436</p>
-          <p>info@BeetleDayCare.com</p>
+          <p>(612) 450-3180</p>
+          <p>sheilajayaswal727@gmail.com</p>
           <p>3541 43rd Avenue South</p>
           <p>Minneapolis, MN 55406</p>
         </div>

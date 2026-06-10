@@ -3,6 +3,8 @@ import './WhyChooseUs.css';
 import { Check } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+import img from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092949474.jpg';
+
 const WhyChooseUs = () => {
   return (
     <section className="choose-section container">
@@ -46,7 +48,7 @@ const WhyChooseUs = () => {
       
       <div className="choose-image">
         <div className="cloud-image-wrapper">
-           <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop" alt="Teacher and students" />
+           <img src={img} alt="Teacher and students" />
         </div>
       </div>
     </section>

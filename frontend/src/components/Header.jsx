@@ -21,7 +21,7 @@ const Header = () => {
           <div className="search-icon">
             <Search size={18} color="#777" />
           </div>
-          <button className="btn btn-primary">Get In Touch</button>
+          <Link to="/faq" className="btn btn-primary">Get In Touch</Link>
         </div>
       </div>
     </header>

@@ -1,15 +1,19 @@
 import React from 'react';
 
+import img1 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092775129.jpg';
+import img2 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092775164.jpg';
+import img3 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092775200.jpg';
+import img4 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092775241.jpg';
+import img5 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092781420.jpg';
+import img6 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092949429.jpg';
+import img7 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781093114045.jpg';
+import img8 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781093114050.jpg';
+
 const Gallery = () => {
   const images = [
-    "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800&auto=format&fit=crop", // Painting/drawing
-    "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=800&auto=format&fit=crop", // Running in forest
-    "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop", // Toddler with camera
-    "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?q=80&w=800&auto=format&fit=crop", // Boy smiling
-    "https://images.unsplash.com/photo-1546795708-c962dc089798?q=80&w=800&auto=format&fit=crop", // Playing child
-    "https://images.unsplash.com/photo-1518554372478-7ab26b40390d?q=80&w=800&auto=format&fit=crop", // Running field
-    "https://images.unsplash.com/photo-1616707424144-03c58bbba79f?q=80&w=800&auto=format&fit=crop", // Child play
-    "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=800&auto=format&fit=crop"  // Kid smiling
+    img1, img2, img3,
+    img4, img5, img6,
+    img7, img8
   ];
 
   return (

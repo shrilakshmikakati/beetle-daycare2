@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import useScrollFade from '../hooks/useScrollFade';
+import heroImg from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781093366245.jpg';
 
 const Hero = () => {
   const fadeRef = useScrollFade();
@@ -21,16 +22,12 @@ const Hero = () => {
         </div>
         <div className="hero-image">
           <div className="image-wrapper">
-             <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800&auto=format&fit=crop" alt="Children smiling" className="student-img" />
+             <img src={heroImg} alt="Children smiling" className="student-img" />
           </div>
         </div>
       </div>
     </section>
   );
-
-
-
-  
 };
 
 export default Hero;

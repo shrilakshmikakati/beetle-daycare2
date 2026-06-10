@@ -2,6 +2,10 @@ import React from 'react';
 import './Programs.css';
 import { ArrowRight } from 'lucide-react';
 
+import img1 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092949482.jpg';
+import img2 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092957356.jpg';
+import img3 from '/home/shrilakshmi/.gemini/antigravity/brain/e51b60c0-e730-4330-b8e4-4a9d2154cf34/media__1781092775129.jpg';
+
 const Programs = () => {
   const programs = [
     {
@@ -11,7 +15,7 @@ const Programs = () => {
       desc: 'Fun-based learning through games, music, and activities to develop social skills and confidence.',
       duration: '2.5 Hr',
       bgColor: '#ffffff',
-      img: 'https://images.unsplash.com/photo-1545622783-b3e0214ee60d?q=80&w=800&auto=format&fit=crop'
+      img: img1
     },
     {
       id: 2,
@@ -20,7 +24,7 @@ const Programs = () => {
       desc: 'Fun-based learning through games, music, and activities to develop social skills and confidence.',
       duration: '2.5 Hr',
       bgColor: '#ffffff',
-      img: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop'
+      img: img2
     },
     {
       id: 3,
@@ -29,7 +33,7 @@ const Programs = () => {
       desc: 'Fun-based learning through games, music, and activities to develop social skills and confidence.',
       duration: '2.5 Hr',
       bgColor: '#ffffff',
-      img: 'https://images.unsplash.com/photo-1503945438517-f65904a52ce6?q=80&w=800&auto=format&fit=crop'
+      img: img3
     }
   ];
 
