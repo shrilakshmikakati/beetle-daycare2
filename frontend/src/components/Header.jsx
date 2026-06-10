@@ -7,7 +7,7 @@ const Header = () => {
     <header className="full-width-header">
       <div className="nav-container">
         <div className="logo">
-          Kidzu
+          Beetle Daycare
         </div>
         <nav className="nav-links">
           <Link to="/">Home</Link>

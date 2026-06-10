@@ -10,7 +10,7 @@ import Apply from './pages/Apply';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/beetle-daycare2">
       <div className="app-wrapper">
         <Header />
         <main>
